@@ -57,8 +57,8 @@ testing<-read.csv("pml-testing.csv",na.strings=c("NA","#DIV/0!"))
 
 ####We take a quick look at the data
 ```{r}
-str(training)
-str(testing)
+str(training, list.len=15)
+str(testing, list.len=15)
 ```
 Data Manipulation
 ==================
