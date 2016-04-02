@@ -124,3 +124,10 @@ The Random Forest's out-of-sample error rate is derived by the formula 100% - Ac
 ```{r}
 1-OverallAccuracy
 ```
+
+Final predictions
+===================
+Let us predict the original test set with the random forest method
+```{r}
+predict(model, testing)
+```
